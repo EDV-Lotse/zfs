@@ -7,6 +7,7 @@ EXTRA_DIST = \
 	$(top_srcdir)/etc/init.d/zfs.lsb.in \
 	$(top_srcdir)/etc/init.d/zfs.lunar.in \
 	$(top_srcdir)/etc/init.d/zfs.redhat.in \
+	$(top_srcdir)/etc/init.d/zfs.sles.in \
 	$(top_srcdir)/etc/init.d/zfs.arch.in
 
 $(init_SCRIPTS):
