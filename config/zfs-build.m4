@@ -264,7 +264,7 @@ AC_DEFUN([ZFS_AC_DEFAULT_PACKAGE], [
 	elif test -f /etc/arch-release ; then
 		VENDOR=arch ;
 	elif test -f /etc/SuSE-release ; then
-		VENDOR=sles ;
+		VENDOR=suse ;
 	elif test -f /etc/slackware-version ; then
 		VENDOR=slackware ;
 	elif test -f /etc/lunar.release ; then
@@ -286,7 +286,7 @@ AC_DEFUN([ZFS_AC_DEFAULT_PACKAGE], [
 		fedora)     DEFAULT_PACKAGE=rpm  ;;
 		gentoo)     DEFAULT_PACKAGE=tgz  ;;
 		arch)       DEFAULT_PACKAGE=arch ;;
-		sles)       DEFAULT_PACKAGE=rpm  ;;
+		suse)       DEFAULT_PACKAGE=rpm  ;;
 		slackware)  DEFAULT_PACKAGE=tgz  ;;
 		lunar)      DEFAULT_PACKAGE=tgz  ;;
 		ubuntu)     DEFAULT_PACKAGE=deb  ;;
@@ -313,7 +313,7 @@ AC_DEFUN([ZFS_AC_DEFAULT_PACKAGE], [
 		fedora)     DEFAULT_INIT_SCRIPT=fedora ;;
 		gentoo)     DEFAULT_INIT_SCRIPT=gentoo ;;
 		arch)       DEFAULT_INIT_SCRIPT=arch   ;;
-		sles)       DEFAULT_INIT_SCRIPT=lsb    ;;
+		suse)       DEFAULT_INIT_SCRIPT=suse   ;;
 		slackware)  DEFAULT_INIT_SCRIPT=lsb    ;;
 		lunar)      DEFAULT_INIT_SCRIPT=lunar  ;;
 		ubuntu)     DEFAULT_INIT_SCRIPT=lsb    ;;
